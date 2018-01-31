@@ -5,7 +5,7 @@
 # Pull base image.
 FROM ubuntu:14.04
 
-MAINTAINER Melchior Wom Füzesi <mfuezesi@gmail.com>
+MAINTAINER Simon Bland <simon.bland@bluewin.ch>
 
 RUN apt-get update
 RUN apt-get install -y \

@@ -11,4 +11,4 @@
 
 ## How to use
 For example, to access wordmove in separated shell use the follow command:
-`docker run -ti --rm --volumes-from DATAVOLUME -v $(HOME)/.ssh/:/root/.ssh:ro mfuezesi/wordmove bash`
+`docker run -ti --rm --volumes-from DATAVOLUME -v $(HOME)/.ssh/:/root/.ssh:ro simonbland/wordmove bash`
