@@ -30,6 +30,8 @@ RUN curl -o /usr/local/bin/wp -L https://raw.githubusercontent.com/wp-cli/builds
 RUN useradd wordmove && echo "wordmove:wordmove" | chpasswd && adduser wordmove sudo
 RUN mkdir -p /home/wordmove && chown wordmove:wordmove /home/wordmove
 USER wordmove
+RUN echo "alias sudo='sudo env PATH=\$PATH'" > /home/wordmove/.bashrc \
+    && chown wordmove:wordmove /home/wordmove/.bashrc
 
 WORKDIR /home/wordmove
 CMD ["/bin/bash"]
