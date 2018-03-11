@@ -1,3 +1,10 @@
+**This image was officially forked by weLaika. From now, please use
+[welaika/docker-wordmove](https://github.com/welaika/docker-wordmove) instead of
+[simonbland/docker-wordmove](https://github.com/simonbland/docker-wordmove), to
+get the official and latest image.**
+
+---
+
 Docker image to run [Wordmove](https://welaika.github.io/wordmove/).
 
 Based on [mfuezesi/docker-wordmove](
