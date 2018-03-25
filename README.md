@@ -19,7 +19,7 @@ https://github.com/mfuezesi/docker-wordmove), with WP-CLI support added.
 
 ### To run this image
 
-`docker run -it --rm -v ~/.ssh:/home/wordmove/.ssh:ro simonbland/wordmove bash`
+`docker run -it --rm -v ~/.ssh:/home/wordmove/.ssh:ro welaika/wordmove bash`
 
 This starts a shell, with `wordmove` available on the command-line.
 
@@ -37,7 +37,7 @@ Compose, with the following four interconnected containers:
 * wordmove
 
 Don't forget to replace `image: mfuezesi/wordmove` with `image: 
-simonbland/wordmove` to get the latest version of Wordmove.
+welaika/wordmove` to get the latest version of Wordmove.
 
 ## Known limitations
 
