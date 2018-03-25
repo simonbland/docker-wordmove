@@ -43,9 +43,6 @@ welaika/wordmove` to get the latest version of Wordmove.
 
 * If `sql_adapter` is set to `wpcli`, then the movefile must be in the same
   directory as the WordPress directory
-* WP-CLI cannot be run as `root` unless the `--allow-root` flag is given, and
-  Wordmove doesn't add this flag when calling WP-CLI; this is why the current
-  user is `wordmove` instead of `root`, when starting this container
 
 ## Advanced usage
 
